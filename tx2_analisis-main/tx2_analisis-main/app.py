@@ -1,6 +1,8 @@
 import streamlit as st
 from textblob import TextBlob
 from googletrans import Translator
+from streamlit-lottie import st_lottie
+import json
 
 translator = Translator()
 st.title('Uso de textblob')
