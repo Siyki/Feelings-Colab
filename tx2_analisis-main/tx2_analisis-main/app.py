@@ -5,12 +5,6 @@ from googletrans import Translator
 translator = Translator()
 st.title('Uso de textblob')
 
-st.set_page_config(
-    page_title="Feelings and Translator",
-    page_icon="✍",
-    layout="wide"
-
-)
 
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 with st.sidebar:
