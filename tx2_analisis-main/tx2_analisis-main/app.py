@@ -5,6 +5,11 @@ from googletrans import Translator
 translator = Translator()
 st.title('Uso de textblob')
 
+st.set_page_config(
+    page_title="Feelings and Translator",
+    page_icon="✍",
+    layout="wide"
+
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 with st.sidebar:
                st.subheader("Polaridad y Subjetividad")
@@ -15,7 +20,12 @@ with st.sidebar:
                Subjetividad: Mide cuánto del contenido es subjetivo (opiniones, emociones, creencias) frente a objetivo
                (hechos). Va de 0 a 1, donde 0 es completamente objetivo y 1 es completamente subjetivo.
 
+               Una animación muy bonita saldrá por cada sentimiento :D
+               👋≧◉ᴥ◉≦
+
                  """
+
+              
                ) 
 
 
