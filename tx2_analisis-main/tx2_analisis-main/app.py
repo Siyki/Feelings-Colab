@@ -9,7 +9,7 @@ st.markdown(
     """
     <style>
         html, body, .stApp {
-            background-color: #FFE4F2;
+            background-color: #FF689D;
         }
         h1, h2, h3, h4, p {
             text-align: center;
